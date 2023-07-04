@@ -1,0 +1,67 @@
+body {
+  margin: 75px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  font-weight: 900;
+  color: rgb(147, 123, 109);
+  background-image: url("");
+  text-align: center;
+}
+
+bold {
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(169, 138, 116);
+  text-align: center;
+}
+
+.css-cheatsheet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.list-style {
+  background-color: rgb(233, 229, 221);
+  padding-left: 10px;
+}
+
+.import {
+  background-color: rgb(231, 219, 199);
+  padding-left: 10px;
+}
+
+.specific {
+  background-color: rgb(226, 217, 201);
+  padding-left: 10px;
+}
+
+.display-basics {
+  background-color: rgb(208, 204, 197);
+  padding-left: 10px;
+}
+
+.changing-the-display {
+  background-color: rgb(216, 211, 207);
+  padding-left: 10px;
+}
+
+.redspans {
+  color: red;
+}
+
+.bluespans {
+  color: blue;
+}
+
+.greenspans {
+  color: green;
+}

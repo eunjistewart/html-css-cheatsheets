@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Cheatcheets</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>HTML & CSS Cheatcheets</h1>
+    <h2>This is a running list of HTML & CSS cheatsheets!</h2>
+    <br />
+    <div class="html-cheatsheet"></div>
+    <br />
+    <div class="css-cheatsheet">
+      <div class="list-style">
+        <h3>List-style</h3>
+        <p>list-style: square;</p>
+        <p>list-style: round;</p>
+        <p>list-style: none;<span class="redspans"> <= This will remove bullet points.</span></p>
+      </div>
+      <br />
+      <div class="import">
+        <h3>Import</h3>
+        <p>
+          <span class="bluespans"><strong>@import</strong></span>
+          url("http:fonts.googleapis.com/css2?family=poiret+one&display=swap");
+        </p>
+        <p>
+          body { <br />
+          font-family: "Poiret One", sans-serif;<br />
+          }<br />
+          <span class="greenspans">On top of my stylesheet</span>
+        </p>
+      </div>
+      <br />
+      <div class="specific">
+        <h3>Get specific</h3>
+        add a class or ID label to an element's HTML tag, then refer to that
+        label in the CSS.
+        <br />
+        <p>ex) Use classes and ids <br /></p>
+        <p>
+          ID - lets us specify a unique label so that we can opply distinct
+          styles to just one thing. In CSS, use # in front of the ID names.
+        </p>
+        <p>
+          CSS - lets us label several elements as belonging to the same
+          group.<span>
+            You can use the same class throughout your HTML in order to apply
+            the same style to many elements, then target that class in CSS using
+            . (dot) in front of the class names.
+          </span>
+        </p>
+      </div>
+      <br />
+      <div class="display-basics">
+        <h4>Display Basics</h4>
+        <p>
+          All HTML elements have some default styling. Likewise, all HTML
+          elements have a default way of being displayed on a page: either as a
+          <strong>block</strong> element or an <strong>inline</strong> element.
+        </p>
+        <p id="blockvsinline">
+          <strong>Block</strong> vs. <strong>Inline</strong>
+        </p>
+        <p id="block">
+          Block- always on a new line; takes up the full width; stack on top of
+          each other when new ones are added; set margins, padding, widths, or
+          heights; examples are h1 ~ h6 tags, div, p, ul, etc
+        </p>
+        <p id="inline">
+          inline- sits within the content surrounds; only take up as necessary;
+          render in one line; cannot have set margins/padding ; examples are
+          link a tags, span, img, etc
+        </p>
+      </div>
+      <br />
+      <div class="changing-the-display">
+        <h3>Changing the Display</h3>
+        <p>
+          ex) <em>natually</em> inline img => <strong>block</strong><br />
+          <em> natually</em> block ul => all in one line <strong>inline</strong>
+        </p>
+        <p><strong>Display: none; </strong><span> element won't display at all.</span></p>
+        <p><strong>Display: inline;</strong><span></span> display in one horizontal line.</span></p>
+        <p><strong>Display: block;</strong><span> stacked & take up the entire width of page.</span></p>
+        <p><strong>Display: inline-block;</strong><span> sit next to each other (inline), but can have margin, padding, width, and height properties(block).</span></p>
+      </div>
+      <br>
+    </div>
+    <div class="footer">
+        <h5>Created as a project in the
+            Front-End Engineer Career Paths course at Codecademy
+            By Eunji Lee, 2023 </h5>
+    </div>
+  </body>
+</html>
